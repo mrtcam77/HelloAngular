@@ -32,12 +32,6 @@ module.exports = function (grunt) {
     // Project settings
     yeoman: appConfig,
 
-  // Define the configuration for all the tasks
-  grunt.initConfig({
-
-    // Project settings
-    yeoman: appConfig,
-
     buildcontrol: {
       options: {
         dir: 'dist',
@@ -47,7 +41,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:your_github_user/your_webapp.git',
+          remote: 'git@github.com:mrtcam77/HelloAngular.git',
           branch: 'gh-pages'
         }
       }
