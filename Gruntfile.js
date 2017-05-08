@@ -252,6 +252,7 @@ module.exports = function (grunt) {
       },
       dist: {
         files: [{
+	    expand: true,
             cwd: '<%= yeoman.app %>/styles',
             src: ['*.scss'],
             dest: '.tmp/styles',
@@ -260,7 +261,6 @@ module.exports = function (grunt) {
       },
       server: {
         files: [{
-          expand: true,
             expand: true,
             cwd: '<%= yeoman.app %>/styles',
             src: ['*.scss'],
